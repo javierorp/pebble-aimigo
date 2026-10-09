@@ -34,14 +34,14 @@ and [Rebble](https://apps.rebble.io/en_US/application/6ac8f6b8836dec0008982ccb) 
 ## Supported watches
 
 | Compatibility    | Internal name (platform) | External name                        | Company        | Mic          | Speaker |
-| ---------------- | ------------------------ | ------------------------------------ | -------------- | ------------ | ------- | --- |
+| ---------------- | ------------------------ | ------------------------------------ | -------------- | ------------ | ------- |
 | ✅ Supported     | `emery`                  | Pebble Time 2 (formerly Core Time 2) | Core Devices   | Yes          | Yes     |
 | ✅ Supported     | `flint`                  | Pebble 2 Duo (formerly Core 2 Duo)   | Core Devices   | Yes          | Yes     |
-| ✅ Supported     | `gabbro`                 | Pe                                   | Pebble Round 2 | Core Devices | Yes     | No  |
+| ✅ Supported     | `gabbro`                 | Pebble Round 2                       | Core Devices   | Yes          | No      |
 | ❌ Not supported | `aplite`                 | Pebble, Pebble Steel                 | Pebble         | No           | No      |
 | ❌ Not supported | `basalt`                 | Pebble Time, Pebble Time Steel       | Pebble         | Yes          | No      |
 | ❌ Not supported | `chalk`                  | Pebble Time Round                    | Pebble         | Yes          | No      |
-| ❌ Not supported | `diorite`                | Pebble 2, Pebble 2 SE                | Pebble         | Yes          |
+| ❌ Not supported | `diorite`                | Pebble 2, Pebble 2 SE                | Pebble         | Yes          | No      |
 
 The app is only built for the Core Devices models. Original Pebble watches
 are left out deliberately: the original Pebble has no microphone (no
