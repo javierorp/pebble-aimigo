@@ -1,0 +1,57 @@
+{
+  "name": "pebble-aimigo",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.1.0"
+  },
+  "pebble": {
+    "displayName": "AImigo",
+    "uuid": "d51b3760-297b-405b-b2d8-4ecc7982670f",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": [
+      "ReqQuestion",
+      "ResAnswer",
+      "ResStatus",
+      "AudioMeta",
+      "AudioChunk",
+      "AudioIndex",
+      "AudioEnd",
+      "Language",
+      "Voice",
+      "ApiKey",
+      "Model"
+    ],
+    "resources": {
+      "media": [
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/menu_icon.png"
+        },
+        {
+          "type": "font",
+          "name": "AIMIGO_TITLE_18",
+          "file": "fonts/RobotoMono-Medium.ttf"
+        }
+      ]
+    }
+  }
+}
