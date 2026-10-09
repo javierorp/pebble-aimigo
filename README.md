@@ -15,7 +15,7 @@ Press a button, dictate your question and this voice assistant replies right
 on your Pebble. On watches with a speaker, the answer is read aloud too.
 
 - Voice dictation through the watch microphone
-- AI-powered answers — pick your model in the settings (Gemma 4 or Qwen 3.6)
+- AI-powered answers — pick your model in the settings (Gemma 4 or Qwen 3.6); the model has no internet access, it only knows its training data
 - Spoken answers on speaker-equipped watches; hold UP to replay
 - Talk to it in 🇪🇸 Spanish, 🇬🇧 English, 🇫🇷 French, 🇮🇹 Italian or 🇵🇹
   Portuguese — it replies in the same language
