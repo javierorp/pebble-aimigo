@@ -1,5 +1,7 @@
 # AImigo
 
+[![Built with NaN](https://nan.builders/badge/built-with-nan-compact.svg)](https://nan.builders/?ref=built-with-nan)
+
 Your (small) AI voice assistant, right on your wrist.
 
 ⚠️ Requires a [NaN.builders](https://nan.builders) API key and the Pebble phone
